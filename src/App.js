@@ -26,7 +26,6 @@ function App() {
 	const removeItem = item => {
 		// console.log(item)
 		const remove = item
-		
 		setCart(
 			cart.filter(item => item.id !== remove.id)
 		)
